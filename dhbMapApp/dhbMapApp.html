@@ -15,17 +15,56 @@
 </head>
 
 <body>
- 
     <main>
         <div id="viewDiv"></div>
-        <div id="infoDiv" class="esri-widget">
-            <h3>Legend</a></h3>
-            <div id="legendDiv"></div>
-            <div id="layerDiv"></div>
+        <div id="infoDivLeft" class="esri-widget">
+            <h3>Filters</a></h3>
             <div id="searchDiv"></div>
-          </div>
+            <div id="filterDiv">
+                <select id="filterType" class="esri-select">
+                    <option value="1=1">Filter By Type</option>
+                    <option value=1>Single Detached Housing</option>
+                    <option value=2>Semi-Detached House</option>
+                    <option value=3>Row House</option>
+                    <option value=4>Apartment or Flat in a Duplex</option>
+                    <option value=6>Apartment Less Than 5 Storeys</option>
+                    <option value=5>Apartment Equal to or Greater Than 5 Storeys</option>
+                    <option value=10>Mixed Use (non_statscan)</option>
+                    <option value=9>Other Movable Dwelling</option>
+                    <option value=0>Non-Residential</option>
+                    <option value=99>Undefined</option>
+                </select>
+                <label><input type="text" id="minBuildValueID" name="values" value=0>Minimum Assessed Value</label>
+                <label><input type="text" id="maxBuildValueID" name="values" value=1010000000>Maximum Assessed
+                    Value</label>
+                <label><input type="text" id="minBuildHeightID" name="values" value=0>Minimum Height</label>
+                <label><input type="text" id="maxBuildHeightID" name="values" value=128>Maximum Height</label>
+                <label><input type="text" id="minBuildFootprintID" name="values" value=0>Minimum Footprint</label>
+                <label><input type="text" id="maxBuildFootprintID" name="values" value=202000>Maximum Footprint</label>
+            </div>
+            <div id="DivVintage">
+                <div id="sliderDivVintage"></div>
+                <label><input type="checkbox" id="includeNullVintageID" name="vintage" checked> Include Undefined
+                    Vintages (9999)</label><br>
+            </div>
+            <div id="sliderDivValue">
+            </div>
+            <div>
+                <label><input type="button" id="applyFilterButtonID" name="applyFilterButton" value="Apply Filters"></label>
+            </div>
+        </div>
+        <div id="infoDivRight" class="esri-widget">
+            <h3>Symbology</a></h3>
+            <select id="symbologySelector" class="esri-select">
+                <option value=rendererDefault>Default</option>
+                <option value=rendererStatscan>Statscan Type</option>
+                <option value=rendererVintage>Vintage</option>
+            </select>
+            <h3>Legend</a></h3>
+            <div id="layerDiv"></div>
+            <div id="legendDiv"></div>
+        </div>
     </main>
-    
 </body>
 
 </html>

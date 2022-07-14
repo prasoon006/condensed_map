@@ -8,20 +8,25 @@ main,
     width: 100%
 }
 
-#infoDiv {
+#infoDivLeft {
     padding: 10px;
     margin: 0;
     height: 100%;
-    width: 100%;
+    width: 500px;
+    border: 3px solid #377B64
+}
+
+#infoDivRight {
+    padding: 10px;
+    margin: 0;
+    height: 100%;
+    width: 300px;
     border: 3px solid #377B64
 }
 
 #layerDiv {
-    padding: 10px;
-    margin: 0;
     height: 100%;
     width: 100%;
-    border: 3px solid #377B64
 }
 
 #searchDiv {
@@ -29,5 +34,44 @@ main,
     margin: 0;
     height: 100%;
     width: 100%;
-    border: 3px solid #377B64
 }
+
+#filterDiv {
+    padding: 10px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#sliderDivVintage {
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#sliderDivValue {
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#legendDiv {
+    height: 100%;
+    width: 100%;
+}
+
+
+#passportDiv {
+    visibility: false;
+}
+
+#applyFilterButtonID {
+    width: 100%;
+}
+
