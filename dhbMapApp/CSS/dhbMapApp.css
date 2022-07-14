@@ -1,0 +1,33 @@
+html,
+body,
+main,
+#viewDiv {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%
+}
+
+#infoDiv {
+    padding: 10px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    border: 3px solid #377B64
+}
+
+#layerDiv {
+    padding: 10px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    border: 3px solid #377B64
+}
+
+#searchDiv {
+    padding: 10px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    border: 3px solid #377B64
+}

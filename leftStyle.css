@@ -1,0 +1,102 @@
+body{
+  
+    margin: 0px;
+    font-family: 'Inter';
+    overflow: hidden;
+}
+
+.navbar-l{
+    border-bottom: 1px black solid;
+    position: fixed;
+    width: 100%;
+  
+    padding: 2vh;
+    height: 5vh;
+    background-color: white;
+    z-index: 2;
+}
+
+.menu-contain{
+    display: flex;
+    float: right;
+}
+
+.dhb-icon{
+   
+    margin-left: 25px;
+}
+
+.menu-l{
+  padding-left: 35px;
+  padding-right: 35px;
+  color: gray;
+  font-weight:400;
+  padding-top: 0.7vh;
+  font-size: 2.2vh; 
+}
+
+
+.main-contain{
+    display: flex;
+    width: 100%;
+    /* background-color: yellow; */
+    height: 99vh;
+    /* C1E8C3 */
+}
+
+
+.left-filter-area{
+    width: 20%;
+}
+
+.right-area{
+    background-color: brown;
+    width: 80%;
+}
+
+
+.container-main{
+    display: flex;
+    height: 93vh;
+}
+
+
+.project-list-map{
+    font-size: 2.2vh;
+    padding: 3vh;
+    padding-left: 3vh;
+}
+
+.filter-title{
+
+    font-size: 2.2vh;
+    font-weight: bold;
+    padding: 3vh;
+    padding-left: 3vh;
+}
+
+.filter-type{
+    padding: 3vh;
+    font-size: 2vh;
+}
+.sub-filter{
+    padding: 1vh;
+    padding-left: 0;
+}
+
+.apply-btn{
+    color: white;
+    background-color: rgb(43, 38, 38);
+    padding: 2vh;
+    text-align: center;
+    width: 90%;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-size: 1.8vh;
+    margin-top: 4.5vh;
+}
+
+
+.icon-filter{
+    float: right;
+}
